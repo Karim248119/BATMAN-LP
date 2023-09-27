@@ -1,0 +1,426 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.no-padding{
+    padding: 0px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+.navbar {
+    border: 0px;
+    background-color: #000;
+    opacity: 0.7;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 100;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-header{
+    float: left;
+
+}
+.navbar-header a {
+    color: #D5D8DC;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform:capitalize;
+    text-decoration: none;
+    padding: 15px;
+    float: left;
+}
+.navbar-body{
+    float: right;
+}
+.navbar-list{
+    float: right;
+    list-style: none;
+
+}
+.navbar-list li {
+    float: left;
+}
+
+.navbar-list li a {
+    color: #D5D8DC;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+h1, h2 {
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 10px;
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+hr{
+    max-width: 300px;
+    height: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 4px solid #0d12a3 ;
+}
+.light{
+    border-color: white;
+}
+
+.btn{
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 300px;
+    vertical-align: middle;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    background-color:#0d12a3;
+    display: inline-block;
+
+}
+
+header{
+    min-height: 100%;
+    color:#fff;
+    background-image: url(./img/superhero-concept-art-batman-gotham-city-wallpaper-preview.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100%;
+}
+.header-content {
+    position: absolute;
+    top: 25%;
+    padding: 0 50px;
+    width: 100%;
+}
+span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-inner{
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-inner h1 {
+    font-size: 50px;
+}
+.header-inner hr {
+    margin: 30px auto;
+}
+.header-inner p{
+    /* max-width: 80%; */
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(78, 79, 80, 0.4);
+}
+
+section{
+    padding: 100px 0;
+}
+.container {
+    width: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-faded{
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.section-body {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bg-primary {
+    background-color:#0d12a3;
+    color: white;
+}
+.btn-light{
+    background-color: white;
+    color: #000;
+}
+
+.activity-container{
+    width: 25%;
+    float:  left;
+    height: 325px;
+
+}
+
+.activity-box{
+    max-width: 400px;
+    margin: 50px 15px;
+
+}
+.activity-box i {
+    color: #0d12a3;
+}
+
+/* photo section */
+
+#photos .container {
+    width: 100%;
+    padding: 0;
+    height: 350px;
+}
+
+.row-col {
+    width: 33.33333333%;
+    position: relative;
+    float: left;
+}
+
+#photos .container img {
+    display: block;
+    max-width: 100%;
+    border: 0;
+}
+
+.photo-box{
+    position: relative;
+    display: block;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.photo-box-caption{
+    color: white;
+    background-color: rgba(13, 18, 163, 0.9);
+    opacity: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.photo-box:hover .photo-box-caption {
+    opacity: 1;
+}
+
+.photo-box-caption-content{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+}
+
+.photo-title{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 15px;
+    
+}
+
+.photo-location{
+    font-size: 22px;
+    padding: 0 15px;
+    text-transform: capitalize;
+}
+
+.text-muted{
+    color: #777;
+
+}
+
+aside{
+    clear: both;
+    padding: 50px 0;
+}
+
+.bg-dark{
+    background-color: #222;
+    color:#0d12a3;
+}
+
+.col-row{
+display: flex;
+    flex-wrap: wrap;
+    /* Allows images to wrap into a new line when there is not enough space */
+    /* Horizontally center the images */
+    align-items: center;
+            justify-content: space-between;
+}
+.members {
+        width: 20%;
+        /* Adjust the height as per your requirements */
+        object-fit: cover;
+        /* Maintain aspect ratio of images */
+        margin: 5px;
+        /* Add some space between the images */
+        display: flex;
+        justify-content: center;
+        /* border: #000 solid 1px; */
+
+}
+.members img{
+    max-width: 170px;
+    max-height: 170px;
+    padding: 20px;
+}
+.a, .cw, .td, .dw {
+    width: 140px;
+}
+.nw, .bg, .rh, .bw {
+    width: 170px;
+}
+.a {
+    height: 130px;
+}
+
+.members img:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+    /* Increase the size to 1.2 times on hover */
+}
+
+.member-name{
+    opacity: 0;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 15px;
+    color:#222;
+}
+.members:hover .member-name{
+    opacity: 1;
+    font-size: 20px;
+    transition: transform 1s;
+}
+.txt{
+    background-color: #801316;
+    color: #D5D8DC;
+    font-size: 20px;
+    width: 100%;
+}
+.favourite-son{
+    display: grid;
+    grid-template-rows: auto 50px auto 50px;
+    grid-template-columns: 1fr 50px 1fr;
+
+}
+.favourite-son h2 {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    padding: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #801316;
+}
+.favourite-son img {
+    grid-row: 2/4;
+    grid-column: 1/3;
+    border-radius: 3px;
+}
+.favourite-son .txt {
+    padding: 70px;
+    grid-row: 3/-1;
+    grid-column: 2/-1;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+}
+
+.bg-two {
+    background: linear-gradient(to right, #222 50%, #0d12a3 50%);
+}
+
+.strong{
+    display: grid;
+    grid-template-columns:  1fr 100px 1fr;
+    grid-template-rows: repeat(3,auto);
+    color: #D5D8DC;
+}
+.strong h2 {
+    grid-row:1/2 ;
+    grid-column:1/2 ;
+    color: #0d12a3;
+    padding: 30px;
+}
+
+.strong .txt2 {
+    grid-row:2/3 ;
+    grid-column:1/3 ;
+    font-size: 20px;
+}
+
+.strong a {
+    grid-row:3/-1 ;
+    grid-column:1/2 ;
+    width: 200PX;
+    height: 60PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px;
+
+}
+
+.strong img {
+    grid-row:2/-1 ;
+    grid-column:2/-1 ;
+}
+
+.strong img:hover {
+    transform: scale(1.3);
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.blue{
+    /* background-color: #0d12a3; */
+}
+
+.nav:active{
+        background-color: #0d12a3;
+}
